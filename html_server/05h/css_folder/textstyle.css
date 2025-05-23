@@ -1,0 +1,27 @@
+
+h2{
+    color:skyblue;
+}
+.bluetext{
+    color:blue;
+}
+#con{
+    width:333px;
+    padding : 12px;
+    border : 12px dotted red;
+}
+p{
+    color : limegreen;
+}
+
+/*이 주석이 익숙하지요 ~~~*/ 
+p{
+    color : blueviolet;
+}
+.box:hover{
+    -ms-transform : rotate(30dge);
+    transform : rotate(30deg)
+}
+.bb{
+    background-color: #00a495
+}

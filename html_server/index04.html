@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: auto;
+            margin: 5px ;
+            display: inline-block;
+            color: green;
+            background:darkgray;
+        }
+        #ee{
+            background:rgb(0,77,242);
+            margin: 50px 6px 30px 33px;
+            
+
+        }
+        #ee2{
+            background:rgb(255,33,0);
+            margin : 3px;
+
+        }
+        #ee3{
+            background:rgb(17,232,0);
+            margin :3px;
+        }
+        table{
+            border-collapse: collapse;
+            width :90%;
+            border:1px solid black;
+        }
+        thead{
+            background-color:#00a69c;
+            padding: 5px;
+
+        }
+        th, td{
+            width : 30%;
+            padding:5px;
+            border : 1px, solid;
+            font-size: 1em;
+        }
+        .list{
+            list-style-image: url('image/002.jpg');
+           
+        }
+        .bullet2{ list-style-type: upper-alpha; }
+        .bullet3{list-style-type: lower-roman;}
+        .bullet4{list-style-type: upper-roman;}
+        h5{ padding:10px; 
+            border-style: dashed;
+            border-left-style:ridge;
+            border-width: 2px 2px 2px 5px;
+            border-left-color: #28b472;
+            background: lightgrey; 
+            width: 50px;;
+            
+        }
+    
+    </style>
+</head>
+<body>
+   
+  
+<pre>       dddd </pre>
+<b>굵게</b>
+<i>이탤릭체</i> <u>밑줄</u> <s>취소선</s><p>안녕<sub>아래첨</sub></p>
+<p>안녕<sup>위첨</sup></p> 
+<p>hi everybody <small>smile</small></p>
+<!--test size--> 
+<p>기본</p> <p style="font-size: 1.2em;">+1단계</p> <p style="font-size: 1.3em;">+2단계</p>
+ 
+<p style="color:red;">텍스트</p> <p style="color:red;"><u>밑줄 포함</u></p><p style="color:red;">밑줄 제외</p>
+<h4 style="color: blue">큰글자 파랑</h4> <blockquote>헥스코드 =Hex Color Codes , RGB 방식 색상 코드 표기법이다. #과 뒤에 붙는 여섯 자리[1] 또는 세 자리[2]의 숫자로 색상을 표기하는 방식이다. 여섯 자리인 경우는 두 자리씩 끊어서 각각 빨강(red), 초록(green), 파랑(blue)의 강도를 256(=162)단계에 걸쳐 나타낸 것이며, 각 두 자리수는 16진수이므로 00(=010)일 때 가장 어둡고 FF(=25510)일 때 가장 밝다. 중간값은 80(=12810)이다. 세 자리인 경우는 한 자리씩 끊어서 각 색상의 강도를 16단계씩 나타낸다</blockquote>
+
+<table>
+    <caption>텍스트 색상</caption>
+    <thead>
+    <tr>
+        <th>유형</th>
+        <th>입력</th>
+        <th>출력</th>
+        <th>비고</th>
+    </tr>
+    </thead>
+    <!--머리 end 입니다다-->
+    <tbody>
+    <tr>
+        <td rowspan="3">기본예시</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>기본예시시</td>
+        <td>3</td>
+        <td>4</td>
+
+    </tr>
+    <tr>
+        <td>w</td>
+        <td>w</td>
+        <td>d</td>
+    </tr>
+    </tbody>
+    <!--아래 놈들들-->
+    <tbody>
+    <tr>
+        <th rowspan="2">w</th>
+        <td>d</td>
+        <td>d</td>
+        <td>d</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th rowspan="2">w</th>
+        <td>d</td>
+        <td>d</td>
+        <td>d</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+<!--이미지 크기 맞춤춤-->
+<table></table>
+<!--list-->
+<ul>
+    <li>w</li>
+    <ul>
+        <li>dd</li>
+    </ul>
+</ul>
+<ul>
+    <li>e</li>
+    <ul>
+        <li>dd</li>
+        <ul>
+            <li>dd</li>
+        </ul>
+    </ul>
+</ul>
+<!--리스트 앞머리 이미지로 대체-->
+<ul class="list" >
+    <li>dk</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
+<!--number exist list-->
+<ol type="a">
+    <li>list</li>
+    <ol>
+        <li>list1.1</li>
+        <li>list1.2</li>
+    </ol>
+    <li>list</li>
+</ol>
+<ol >
+    <li>list</li>
+    <ol>
+        <li>list1.1</li>
+        <li>list1.2</li>
+    </ol>
+    <li>list</li>
+</ol>
+<ol class="bullet2">
+    <li>list</li>
+    <ol>
+        <li>list1.1</li>
+        <li>list1.2</li>
+    </ol>
+    <li>list</li>
+</ol>
+<ol class="bullet3">
+    <li>list</li>
+    <ol>
+        <li>list1.1</li>
+        <li>list1.2</li>
+    </ol>
+    <li>list</li>
+</ol>
+<ol class="bullet4">
+    <li>list</li>
+    <ol>
+        <li>list1.1</li>
+        <li>list1.2</li>
+    </ol>
+    <li>list</li>
+</ol>
+<ol class="bullet4" type="Ⅰ" start="4">
+    <li>list</li>
+    <ol>
+        <li>list1.1</li>
+        <li>list1.2</li>
+    </ol>
+    <li>list</li>
+</ol>
+<!--type 하고 로마자 1임!, 4부터 시작할게요요-->
+<!--인용문-->
+<h5>인용문</h5>
+<!--수평줄-->
+<p>---(3개 미만 수평줄 아님)</p>
+<p>----</p>
+<p><hr></p>
+<p>--------------(10개 초과 수평줄아님님)</p>
+<!--table-->
+
+
+<body>
+</html>

@@ -1,0 +1,40 @@
+.ee{
+    width: 500px;
+    height: 10px;
+    padding: 10px 3px;
+    border: 54px #ccc dashed;
+    background-color: red;
+    margin: 10px;
+    content:11px;
+    overflow:hidden;
+}
+.dd{
+    text-align: center;
+}
+.du{
+    display: block;
+}
+.eee div p{
+    display: block;
+}
+
+.ddd{
+    display: inline;
+}
+
+.e{
+    border-width: 70%;
+}
+.re{
+    list-style-type : none;
+}
+ul li{
+    display: inline-block ;
+    margin : 20px;
+
+}
+li{
+    border : 1px solid black;
+    padding : 10px 20px;
+    margin: 10px;
+}
