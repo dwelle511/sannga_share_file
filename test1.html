@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .gradation1{
+         background: linear-gradient(135deg, rgba(230, 84, 71, 1) 0%, rgba(253, 126, 29, 1) 50%, rgba(255, 247, 13, 1) 100%);
+        }
+    .gradation2{
+        background: #e65447;
+        background: linear-gradient(135deg, rgba(230, 84, 71, 1) 0%, rgba(253, 126, 29, 1) 18%, rgba(245, 237, 7, 1) 36%, rgba(22, 254, 88, 1) 51%, rgba(112, 230, 222, 1) 63%, rgba(42, 19, 254, 1) 82%, rgba(118, 48, 240, 1) 100%);
+    }    
+    .gradation3{ 
+        background: rgba(0,0,0,0);
+        background:linear-gradient(45deg, #C9151E 30%, #D1EAFF 0%);
+        
+    }
+    #border_style1 div{ 
+        width : 100px;
+        height: 50px;
+        display : inline-block;
+        margin: 4px;
+        border-width : 2px rgb(37, 37, 168); 
+
+    }
+    .border_style2{
+        border-style:solid;
+    }
+    .border_style3{
+        border-style:none;
+    }
+    .border_style4{
+        border-style:dashed;
+    }
+    .border_style5{
+        border-style:dotted;
+    }
+    .border_style6{
+        border-style:double;
+    }
+    .border_style7{
+        border-style:inset;
+    }
+    .border_style8{
+        border-style:groove;
+    }
+    .border_style9{
+        border-style:outset;
+    }
+    .border_style10{
+        border-style:hidden;
+    }
+    #border_style20 div{
+        width : 100px;
+        height: 50px;
+        display : inline-block;
+        margin: 4px;
+        border : 2px solid rgba(201, 48, 48, 0.699);
+    }
+    .border_style21{/*왼위 우위 우아래 왼아래 순서서:11시부터 시계방향이다*/
+        border-radius: 20px 20px 0px 0px;
+
+    }
+    </style>
+</head>
+<body>
+    <p>dd</p>
+    <!--gradation-->
+    <div class="gradation1">
+        gradation
+    </div>
+    <div class="gradation2">
+        gradation
+    </div>
+    <!--우리 사이트의 색갈톤이 되시겠습니다-->
+    <div class="gradation3">
+        gradation
+    </div>
+<!--틀관련속성  테두리리-->
+    <div id="border_style1">
+    <div class="border_style2">e</div>
+    <div class="border_style3">e</div>
+    <div class="border_style4">e</div>
+    <div class="border_style5">e</div>
+    <div class="border_style6">e</div>
+    <div class="border_style7">e</div>
+    <div class="border_style8">e</div>
+    <div class="border_style9">e</div>
+    <div class="border_style10">e</div>
+    </div>
+<!--모서리 모양-->
+<div id="border_style20">
+<div class="border_style21">t</div>
+<div class="border_style22">t</div>
+<div class="border_style23">t</div>
+<div class="border_style24">t</div>
+</div>
+<!--들여쓰기 pre사용용-->
+<div class="indentation">
+    <p>들여쓰지 않은 텍스트</p>
+    <p><pre>   들여쓴 텍스트</pre></p>
+    <p><pre>       들여쓴 텍스트</pre></p>
+    <p><pre>            들여쓴 텍스트</pre></p>
+    
+</div>
+<!--인용문 정렬 가져오기..그리고 div안에서 justify-align : center or right left : .-->
+<!--루비문자-->
+<P>루비 문자는 한자 일본어 표시하는 기능입니다. <br>
+일본어로 "좋은 아침입니다."<ruby>お早<rt>はよ</rt>うございます。</ruby></P>
+<!--이미지 삽입시 여백제거 동영상도 넣기-->
+<!--이미지 그림자자-->
+</body>
+</html>
